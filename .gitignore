@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IntelliJ / Android Studio
+.idea/
+**/.idea/
+*.iml
+
+# Gradle / build outputs
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Android local config
+local.properties
+
+# Other generated folders
+out/
+**/out/
