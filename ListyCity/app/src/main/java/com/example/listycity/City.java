@@ -68,4 +68,10 @@ public class City implements Comparable<City> {
         return city.equals(other.city)
                 && province.equals(other.province);
     }
+    @Override
+    public int hashCode() {
+        int result = city.hashCode();
+        result = 31 * result + province.hashCode();
+        return result;
+    }
 }
